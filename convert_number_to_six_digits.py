@@ -1,9 +1,5 @@
-BEGIN
-    Print "Enter number (0-1000):"
-    INPUT number
+number = input("Enter number (0-1000): ")
 
-     Set zeros_needed to 6 minus the length of number  
-    Set padded_number to zeros_needed times "0" + number  
+six_digit = number.zfill(6)
 
-    PRINT "Output: ", padded_number  
-END  
+print(six_digit)

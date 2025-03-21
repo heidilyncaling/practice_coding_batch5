@@ -1,8 +1,6 @@
-BEGIN  
-    PRINT "Enter a complete statement:"  
-    INPUT statement  
+statement = input("Enter a complete statement: ")
 
-    Count the number of words  
+words = statement.split()
+word_count = len(words)
 
-    PRINT word count  
-END  
+print("Word count:", word_count)

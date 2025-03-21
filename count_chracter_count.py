@@ -1,8 +1,6 @@
-BEGIN  
-    PRINT "Enter full name:"  
-    INPUT fullname  
+fullname = input("Enter full name: ")
 
-    Count the number of characters in fullname  
+fullname_no_space = fullname.replace(" ", "")
+characters_count = len(fullname_no_space)
 
-    PRINT character count  
-END  
+print(characters_count)
