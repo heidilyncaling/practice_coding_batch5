@@ -1,8 +1,8 @@
-BEGIN  
-    PRINT "Enter full name: "  
-    INPUT fullname  
-    
-    Convert fullname to lowercase
+#Ask user for input.
+fullname = input("Enter full name: ")
 
-    PRINT fullname
-END  
+#lowercase letter.
+fullname = fullname.lower()
+
+#display output.
+print(fullname)

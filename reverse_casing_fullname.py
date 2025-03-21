@@ -1,14 +1,8 @@
-BEGIN
-    PRINT "Full name:"  
-    INPUT fullname  
+# Ask user input.
+fullname = input("Enter full name: ")
 
-    FOR each character in fullname DO  
-        IF character is uppercase THEN  
-            Convert character to lowercase  
-        ELSE  
-            Convert character to uppercase  
-        ENDIF  
-    ENDFOR  
+# Invert the case of each character using swapcase()
+inverted_fullname = fullname.swapcase()
 
-    PRINT fullname  
-END
+# Display the result
+print(inverted_fullname)

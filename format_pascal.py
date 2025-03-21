@@ -1,9 +1,11 @@
-BEGIN  
-    PRINT "Enter full name:"  
-    INPUT fullname  
+#Ask user for input.
+fullname = input("Enter full name: ")
 
-    Convert fullname to proper case  
-    Remove all spaces  
+#Capitalize first letter.
+fullname = fullname.title()
 
-    PRINT fullname  
-END  
+#Remove space
+fullname = fullname.replace(" ", "")
+
+#print output
+print(fullname)

@@ -1,10 +1,8 @@
-BEGIN  
-    PRINT "Enter full name: "  
-    INPUT fullname  
-    
-    WHILE first character of fullname is a space DO  
-        Remove the first character of fullname  
-    ENDWHILE
+#Ask user input.
+fullname = input("Enter full name: ")
 
-    PRINT fullnamd
-END  
+# Remove leading spaces
+fullname = fullname.lstrip()
+
+# Display the result
+print(fullname)

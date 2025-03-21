@@ -1,9 +1,11 @@
-BEGIN  
-    PRINT "Enter full name:"  
-    INPUT fullname  
+#Ask user for input.
+fullname = input("Enter full name: ")
 
-    Convert fullname to lowercase  
-    Convert all spaces with "_"  
+#lowercase letter.
+fullname = fullname.lower()
 
-    PRINT fullname  
-END  
+#change spaces to _
+fullname = fullname.replace(" ", "_")
+
+#display output.
+print(fullname)

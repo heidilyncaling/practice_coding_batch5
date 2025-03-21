@@ -1,8 +1,8 @@
-BEGIN  
-    PRINT "Enter full name: "  
-    INPUT fullname  
-    
-    Convert fullname to proper case
+#Ask user for input.
+fullname = input("Enter full name: ")
 
-    PRINT fullname
-END  
+#Capitalize first letter.
+fullname = fullname.title()
+
+#display output.
+print(fullname)
